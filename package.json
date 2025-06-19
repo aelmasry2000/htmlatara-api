@@ -1,0 +1,27 @@
+{
+  "name": "htmlatara-api",
+  "version": "1.0.0",
+  "description": "API for Arabic and English metadata extraction and RDA MARC21 record generation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "MARC21",
+    "RDA",
+    "Arabic",
+    "cataloging",
+    "pdf"
+  ],
+  "author": "aelmasry2000",
+  "license": "MIT"
+}
